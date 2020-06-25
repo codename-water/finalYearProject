@@ -1,0 +1,46 @@
+<html>
+   <head>
+      <title>Sign Up Page</title> 
+   </head>
+   
+   <body>
+		<form id =  "myForm"  action = "/signupInfo.php"  method = "post" >
+         <table cellspacing = "20" >
+            
+            <tr>
+               <td align = "right">Name</td>
+               <td><input type = "text" name = "name" required/></td>
+            </tr>
+
+            <tr>
+               <td align = "right">EMail</td>
+               <td><input type ="email" name = "email" required/></td>
+            </tr>
+
+            <tr>
+               <td align = "right">Password</td>
+               <td><input type = "password" name = "password" required/></td>
+            </tr>
+
+            <tr>
+               <td align = "right">Confirm Password:</td>
+               <td><input type = "password" name = "passwordcheck" required/></td>
+            </tr>
+
+            <tr>
+               <td align = "right"><p>SignUp As:</p></td>
+               <td><select name="type">
+                  <option value="Faculty">Faculty</option>
+                  <option value="Student">Student</option>
+               </td>
+            </tr>
+            
+            <tr>
+               <td> </td>
+               <td><input type = "submit" value = "Sign Up" /></td>
+            </tr>
+            
+         </table>
+      </form>
+   </body>
+</html>
